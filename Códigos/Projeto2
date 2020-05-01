@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        
+        h1{
+            color: #0D454C;
+            font-family: Courier;
+        }
+        
+        h2{
+            color: #EF6A00;
+            font-family: Garamond;
+        }
+        
+        ol{
+            font-family: Courier; 
+        }
+        
+        table{
+            border-style: outset;
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1>Kaname's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#dadinho">Dadinho de Tapioca</a></li>
+            <li><a href="#panqueca">Panqueca Americana</a></li>
+            <li><a href="#molho">Molho Agridoce da China</a></li>
+        
+            
+        </ol>
+    <!-- Receita 1 -->
+        <h2 id="dadinho">Dadinho de Tapioca</h2>
+        
+        <ul>
+            <li>Time: 90 min</li>
+            <li>Serves: 30 porções</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Farinha de tapioca granulada</td>
+                    <td>500g</td>
+                </tr> 
+                <tr>
+                    <td>Leite líquido integral</td>
+                    <td>1L</td>
+                </tr> 
+                <tr>
+                    <td>Queijo coalho ralado</td>
+                    <td>500g</td>
+                </tr> 
+                <tr>
+                    <td>Sal</td>
+                    <td>A gosto</td>
+                </tr> 
+                <tr>
+                    <td>Pimenta-do-reino branca</td>
+                    <td>A gosto</td>
+                </tr>
+                <tr>
+                    <td>Geleia agridoce de pimenta para acompanhar</td>
+                    <td>A gosto</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Modo de Fazer:</strong>         <ol>
+            <li>Aqueça o leite em uma panela.</li>
+            <li>Quando o leite estiver bem quente, desligue o fogo, adicione o queijo coalho ralado e continue mexendo.</li>
+            <li>Logo em seguida adicione a farinha de tapioca granulada e continue mexendo.</li>
+            <li>Adicione o sal e pimenta a gosto.</li>
+            <li>Pare de mexer quando todos os ingredientes estiverem bem misturados.</li>
+            <li>Despeje em uma forma coberta com papel filme (pvc), cubra em cima também e leve para a geladeira por duas horas.</li>
+            <li>Depois retire da geladeira, corte em quadradinhos (dadinhos) e frite aos poucos em óleo quente ou coloque no forno até dourar.</li>
+            <li>Sirva em seguida acompanhado da geleia de pimenta agridoce.</li>
+        </ol>
+</p>
+        
+    <p><em>Source: <a href="https://www.tudogostoso.com.br/receita/165944-dadinho-de-tapioca.html">Tudo Gostoso</a></em></p>
+    
+    <!-- Receita 2 -->
+        <h2 id="panqueca">Panqueca Americana</h2>
+        
+        <ul>
+            <li>Time: 15min</li>
+            <li>Serves: 5 porções</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Farinha de trigo</td>
+                    <td>1 xícara</td>
+                </tr> 
+                <tr>
+                    <td>Açúcar</td>
+                    <td>2col sopa</td>
+                </tr> 
+                <tr>
+                    <td>Fermento em pó</td>
+                    <td>2col chá</td>
+                </tr> 
+                <tr>
+                    <td>Sal</td>
+                    <td>Uma pitada</td>
+                </tr> 
+                <tr>
+                    <td>Ovo batido</td>
+                    <td>1un</td>
+                </tr>
+                <tr>
+                    <td>Leite</td>
+                    <td>1 xícara</td>
+                </tr>
+                <tr>
+                    <td>Óleo vegetal</td>
+                    <td>2col sopa</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Modo de Fazer:</strong>         <ol>
+            <li>Em um refratário misture a farinha, o açúcar, o fermento e o sal.</li>
+            <li>Faça um buraco no meio e coloque o leite, o ovo e o óleo. Mexa até ficar uma massa homogênea.</li>
+            <li>Aqueça uma frigideira e coloque bem pouco óleo. Faça cada panqueca com aproximadamente 1/4 de xícara de massa.</li>
+            <li>Deixe dorar em ambos os lados e sirva quente.</li>
+            
+        </ol>
+</p>
+        
+    <p><em>Source: <a href="https://www.tudogostoso.com.br/receita/99726-panquecas-americanas.html">Tudo Gostoso</a></em></p>
+    
+    
+    <!-- Receita 3 -->
+        <h2 id="molho">Molho Agridoce da China</h2>
+        
+        <ul>
+            <li>Time: 10min</li>
+            <li>Serves: 1 porção</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vinagre</td>
+                    <td>3col sopa</td>
+                </tr> 
+                <tr>
+                    <td>Açúcar</td>
+                    <td>4col sopa</td>
+                </tr> 
+                <tr>
+                    <td>Catchup</td>
+                    <td>4col sopa</td>
+                </tr> 
+                <tr>
+                    <td>Maisena</td>
+                    <td>3col chá</td>
+                </tr> 
+                <tr>
+                    <td>Sal</td>
+                    <td>1col chá</td>
+                </tr>
+                <tr>
+                    <td>Molho de soja (shoyu)</td>
+                    <td>1col chá</td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+        <p><strong>Modo de Fazer:</strong>         <ol>
+            <li>Misture todos os ingredientes, leve ao fogo brando mexendo até engrossar.</li>
+            <li>Coloque em um recipiente e sirva.</li>
+
+        </ol>
+</p>
+        
+    <p><em>Source: <a href="https://www.tudogostoso.com.br/receita/65341-molho-agridoce-da-china.html">Tudo Gostoso</a></em></p>
+    
+    
+    <p>Bom apetite!</p>
+    
+    <img src="https://www.kasandbox.org/programming-images/cute/Heart.png" alt="panorama" width="50" height="100"> 
+    
+    </body>
+</html>
